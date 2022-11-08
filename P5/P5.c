@@ -1,6 +1,7 @@
 #include <stdio.h>;
 #include <string.h>
 #include <ctype.h>;
+#include <stdbool.h>;
 
 // Ingresar una palabra en mayúsculas (controlar) y eliminar de la misma la cadena "CA" cada vez que la encuentre.
 bool mayuscula(char str[])
